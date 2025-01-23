@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: appwrite
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    region: ohio  # Choose a region closest to you
